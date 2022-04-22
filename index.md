@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Orange Soda</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport"content="Width=device width, initial-scale=1">
+  <meta name="description" content="" />
+
+  <style>
+        #grad {
+          height: 500px;
+          background-color: orange;/* For browsers that do not support gradients */
+          background-image: linear-gradient(#EDEAD0,#FF7E47);
+        }
+      </style>
+      <style>
+            #grad2 {
+              height: 500px;
+              background-color: orange;
+              background-image: linear-gradient(#FF7E47,#EDEAD0);
+            }
+          </style>
+    </head>
+
+<body>
+      <div id="grad2"></div>
+      <h1><center> Orange Soda </center></h1>
+      <center> <image src="orange.gif"/>
+      </center>
+      <div id="grad"></div> <!-- I wish this could go under the text i'm having trouble doing that i think it would look cool with the gif over the gradient it's beyond my ability//-->
+</body>
+</html>
